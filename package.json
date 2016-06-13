@@ -1,0 +1,17 @@
+{
+  "name": "chh",
+  "version": "1.0.0",
+  "description": "cloudhostinghawaii.com website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hapi.js"
+  ],
+  "author": "g55",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^13.4.1"
+  }
+}

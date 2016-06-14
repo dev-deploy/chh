@@ -21,7 +21,7 @@ server.route({
   path '/{name}',
   handler: function (request, reply) {
 
-    reply('Aloha, ' + encodeURLComponent(request.params.name) + '!');
+    reply('aloha, ' + encodeURLComponent(request.params.name) + '!');
   }
 });
 

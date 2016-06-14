@@ -16,6 +16,15 @@ server.route({
   }
 });
 
+server.route({
+  method: 'GET',
+  path '/{name}',
+  handler: function (request, reply) {
+
+    reply('Hello, ' + encodeURLComponent(request.params.name) + '!');
+  }
+});
+
 server.start((err) => {
   if (err) {
     throw err;

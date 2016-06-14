@@ -18,7 +18,7 @@ server.route({
   }
 });
 
-// about us route
+// about route
 server.route({
   method: 'GET',
   path: '/about',

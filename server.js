@@ -14,17 +14,15 @@ server.route({
   method: 'GET',
   path: '/',
   handler: function (request, reply) {
-    reply('Aloha, Friends.');
+    return reply('Aloha, Friends.');
   }
 });
 
-// catch-all route - need to test
 server.route({
   method: 'GET',
-  path '/{p*}',
+  path: '/about',
   handler: function (request, reply) {
-
-    return reply('The page was not found.').code(404);
+    return reply('We are Awesome!');
   }
 });
 

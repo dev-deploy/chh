@@ -27,7 +27,7 @@ server.route({
   }
 });
 
-// contact us route
+// contact route
 server.route({
   method: 'GET',
   path: '/contact',

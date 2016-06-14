@@ -17,7 +17,7 @@ server.route({
   }
 });
 
-// name route via params
+// route named via params 
 server.route({
   method: 'GET',
   path '/{name}',

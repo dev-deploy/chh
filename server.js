@@ -8,6 +8,14 @@ server.connection({
   host: '127.0.0.1'
 });
 
+server.route({
+  method: 'GET',
+  path: '/',
+  handler: function (request, reply) {
+    reply('Hello, world!');
+  }
+});
+
 server.start((err) => {
   if (err) {
     throw err;

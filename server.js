@@ -8,6 +8,7 @@ server.connection({
   host: '127.0.0.1'
 });
 
+// default route
 server.route({
   method: 'GET',
   path: '/',
@@ -16,6 +17,7 @@ server.route({
   }
 });
 
+// name route via params
 server.route({
   method: 'GET',
   path '/{name}',

@@ -27,6 +27,7 @@ server.route({
   }
 });
 
+// start hapi server
 server.start((err) => {
   if (err) {
     throw err;

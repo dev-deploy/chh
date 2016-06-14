@@ -13,17 +13,17 @@ server.route({
   method: 'GET',
   path: '/',
   handler: function (request, reply) {
-    reply('Hello, world!');
+    reply('Aloha.');
   }
 });
 
-// route named via params 
+// catch-all route
 server.route({
   method: 'GET',
-  path '/{name}',
+  path '/{p*}',
   handler: function (request, reply) {
 
-    reply('aloha, ' + encodeURLComponent(request.params.name) + '!');
+    return reply('The page was not found.').code(404);
   }
 });
 

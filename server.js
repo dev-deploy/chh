@@ -27,6 +27,15 @@ server.route({
   }
 });
 
+// contact us route
+server.route({
+  method: 'GET',
+  path: '/contact',
+  handler: function (request, reply) {
+    return reply('Contact us on Twitter! @cloudhostinghawaii.com ');
+  }
+});
+
 // start hapi server
 server.start((err) => {
   if (err) {

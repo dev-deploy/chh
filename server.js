@@ -17,7 +17,7 @@ server.route({
   }
 });
 
-// catch-all route
+// catch-all route - need to test
 server.route({
   method: 'GET',
   path '/{p*}',

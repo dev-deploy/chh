@@ -14,7 +14,7 @@ server.route({
   method: 'GET',
   path: '/',
   handler: function (request, reply) {
-    return reply('<h1>Aloha.</h1>');
+    return reply('<h1>Aloha.</h1>\n<p>Easy living and cool breezes...</p>\n');
   }
 });
 

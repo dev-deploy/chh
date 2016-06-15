@@ -23,7 +23,7 @@ server.route({
   method: 'GET',
   path: '/about',
   handler: function (request, reply) {
-    return reply('We are Awesome!');
+    return reply('<h1>We are Awesome!</h1>');
   }
 });
 
@@ -32,7 +32,7 @@ server.route({
   method: 'GET',
   path: '/contact',
   handler: function (request, reply) {
-    return reply('Contact us on Twitter! @cloudhostinghawaii.com ');
+    return reply('<h1>Contact us on Twitter! @cloudhostinghawaii.com</h1> ');
   }
 });
 
